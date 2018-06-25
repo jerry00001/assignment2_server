@@ -21,7 +21,6 @@ public class databaseinitResource {
 	Request request;
 
 	//Request#0
-	
 	@GET
 	@Produces({MediaType.TEXT_XML, MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
 	public void getPersonsList() {

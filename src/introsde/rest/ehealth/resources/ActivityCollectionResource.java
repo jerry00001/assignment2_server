@@ -1,4 +1,4 @@
-package introsde.rest.university.resources;
+package introsde.rest.ehealth.resources;
 
 
 import javax.ws.rs.GET;
@@ -6,7 +6,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import introsde.rest.university.model.ActivityType;
+import introsde.rest.ehealth.model.ActivityType;
 
 @Path("/activity_types")
 public class ActivityCollectionResource {

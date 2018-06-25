@@ -1,4 +1,4 @@
-package introsde.rest.university.model;
+package introsde.rest.ehealth.model;
 
 import java.io.Serializable;
 import java.util.List;
@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-import introsde.rest.university.dao.PersonActivityDao;
+import introsde.rest.ehealth.dao.PersonActivityDao;
 
 
 @Entity  // indicates that this class is an entity to persist in DB

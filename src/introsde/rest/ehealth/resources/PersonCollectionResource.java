@@ -1,6 +1,4 @@
-package introsde.rest.university.resources;
-
-import introsde.rest.university.model.Person;
+package introsde.rest.ehealth.resources;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -16,6 +14,8 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Request;
 import javax.ws.rs.core.UriInfo;
+
+import introsde.rest.ehealth.model.Person;
 
 @Path("/person")
 public class PersonCollectionResource {

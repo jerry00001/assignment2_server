@@ -1,8 +1,4 @@
-package introsde.rest.university.resources;
-
-import introsde.rest.university.model.Activity;
-import introsde.rest.university.model.ActivityType;
-import introsde.rest.university.model.Person;
+package introsde.rest.ehealth.resources;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -23,6 +19,10 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Request;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
+
+import introsde.rest.ehealth.model.Activity;
+import introsde.rest.ehealth.model.ActivityType;
+import introsde.rest.ehealth.model.Person;
 
 	public class PersonActivityResource {
 	    @Context

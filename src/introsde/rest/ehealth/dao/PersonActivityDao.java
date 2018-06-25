@@ -1,4 +1,4 @@
-package introsde.rest.university.dao;
+package introsde.rest.ehealth.dao;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,6 +1,4 @@
-package introsde.rest.university.resources;
-
-import introsde.rest.university.model.Person;
+package introsde.rest.ehealth.resources;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
@@ -15,6 +13,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Request;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
+
+import introsde.rest.ehealth.model.Person;
 
 public class PersonResource {
     @Context

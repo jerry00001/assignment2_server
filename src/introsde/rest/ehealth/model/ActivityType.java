@@ -1,4 +1,4 @@
-package introsde.rest.university.model;
+package introsde.rest.ehealth.model;
 
 import java.io.Serializable;
 import java.util.Arrays;
@@ -8,10 +8,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name="activity_Type")
 public enum ActivityType implements Serializable {
-	Sport("Sport"),
-	Social("Social"),
-	Culture("Culture"),
-	WorkMeeting("WorkMeeting");
+	Persistence("Persistence"),
+	Powerful("Powerful"),
+	Relax("Relax");
 	
 	private String name;
 	

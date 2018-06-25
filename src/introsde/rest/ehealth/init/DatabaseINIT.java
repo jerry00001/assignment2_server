@@ -10,9 +10,11 @@ import introsde.rest.ehealth.model.*;
 public class DatabaseINIT {
 public static void initializeDB(){
 		
-		Activity a= setActivity("Hiking","Hiking in the mountain","Trentino","2017-02-11T01:02:03.4",ActivityType.Persistence);
+		Activity a=new Activity();
+		a= setActivity("Hiking","Hiking in the mountain","Trentino","2017-02-11T01:02:03.4",ActivityType.Persistence);
 		
-		Person p= setPerson("1990-12-29","Kelrawa","Meng",a);
+		Person p=new Person();
+		p=setPerson("1990-12-29","Kelrawa","Meng",a);
 		
 		a= setActivity("Jumping","Jumping to park","Park","2017-03-1T01:02:03.4",ActivityType.Persistence);
 		p= setPerson( "1984-06-21", "Pallo", "Pinco",a);

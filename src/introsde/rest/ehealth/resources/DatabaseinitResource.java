@@ -13,7 +13,7 @@ import introsde.rest.ehealth.init.DatabaseINIT;
 
 @Path("/database_init")
 
-public class databaseinitResource {
+public class DatabaseinitResource {
 	
 	@Context
 	UriInfo uriInfo;

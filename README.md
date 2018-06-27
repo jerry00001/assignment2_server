@@ -1,7 +1,7 @@
 ##Identification:  
 NAME: Jiarui.xiong  
 EMAIL: Jiarui.xiong@studenti.unitn.it
-HEROKU Server: https://introsde-asgn2-server.herokuapp.com  
+HEROKU Server: https://assignment2-server.herokuapp.com/
 Server Git ripo: https://github.com/jerry00001/assignment2_server
 Client Git riop: https://github.com/jerry00001/assignment2_client
 
@@ -28,7 +28,7 @@ Data Initialization class which is execute once at the deploy time by the webser
 `Request #10 (Extra): PUT /person/{id}/{activity_type}/{activity_id}` updates the value for the {activity_type} identified by {activity_id}, related to the person identified by {id}.  
 `Request #11 (Extra): GET /person/{id}/{activity_type}?before={beforeDate}&after={afterDate}` returns the activities of {activity_type} for person {id} which {start_date} is in the specified range of date.  
 
- 
+
 git init
 git add .
 git commit -am "initial commit"
